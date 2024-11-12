@@ -1,0 +1,9 @@
+[11-Sep-2024 00:17:08 Europe/Istanbul] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/yavuz/public_html/foodscan/conn.php on line 16
+[11-Sep-2024 00:17:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/yavuz/public_html/foodscan/conn.php:17
+Stack trace:
+#0 /home/yavuz/public_html/foodscan/conn.php(11): Db->Connnect()
+#1 /home/yavuz/public_html/foodscan/inc/init.php(9): Db->__construct()
+#2 /home/yavuz/public_html/foodscan/inc/header.php(1): require_once('/home/yavuz/...')
+#3 /home/yavuz/public_html/foodscan/index.php(1): include('/home/yavuz/...')
+#4 {main}
+  thrown in /home/yavuz/public_html/foodscan/conn.php on line 17
